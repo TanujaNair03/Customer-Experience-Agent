@@ -19,11 +19,11 @@ It also includes fallback logic so the demo remains usable when Gemini free-tier
 
 ## Project Structure
 
-- [app.py](/Users/tanujanair/Desktop/Customer%20Experience%20Automation/app.py): Streamlit UI
-- [agent.py](/Users/tanujanair/Desktop/Customer%20Experience%20Automation/agent.py): LangGraph routing workflow
-- [data_setup.py](/Users/tanujanair/Desktop/Customer%20Experience%20Automation/data_setup.py): dummy FAQ creation and Chroma indexing
-- [test_agent.py](/Users/tanujanair/Desktop/Customer%20Experience%20Automation/test_agent.py): pytest routing tests
-- [data/sportswear_faq.txt](/Users/tanujanair/Desktop/Customer%20Experience%20Automation/data/sportswear_faq.txt): dummy FAQ corpus
+- [app.py](app.py): Streamlit UI
+- [agent.py](agent.py): LangGraph routing workflow
+- [data_setup.py](data_setup.py): dummy FAQ creation and Chroma indexing
+- [test_agent.py](test_agent.py): pytest routing tests
+- [data/sportswear_faq.txt](data/sportswear_faq.txt): dummy FAQ corpus
 
 ## Features
 
