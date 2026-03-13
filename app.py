@@ -18,7 +18,7 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent
 ASSISTANT_AVATAR = Path(
-    "/Users/tanujanair/Desktop/3d-render-colorful-user-icon-gradient-orange-pink-human-avatar-profile-symbol_84443-33547.jpg.avif"
+    BASE_DIR / "assets" / "chatbot_avatar.avif"
 )
 USER_AVATAR = BASE_DIR / "assets" / "user_avatar.svg"
 
